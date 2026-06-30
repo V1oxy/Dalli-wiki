@@ -1,6 +1,8 @@
-/* Скрыть левую навигацию */
-.md-sidebar--primary {
-  display: none;
+/* Скрыть навигацию только для больших экранов */
+@media screen and (min-width: 1220px) {
+    .md-sidebar--primary {
+        display: none;
+    }
 }
 
 /* Растянуть основную область */
