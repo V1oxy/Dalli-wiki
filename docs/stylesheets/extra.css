@@ -1,0 +1,66 @@
+/* Скрыть левую навигацию */
+.md-sidebar--primary {
+  display: none;
+}
+
+/* Растянуть основную область */
+.md-main__inner {
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
+/* Убрать пустое место слева */
+.md-content {
+  margin-left: 0 !important;
+}
+
+/* Скрыть нижний футер */
+.md-footer {
+    display: none;
+}
+
+.md-button {
+    border-radius: 5px !important;
+}
+
+.md-search__form {
+    border-radius: 5px !important;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+    margin: 3rem 0;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+}
+
+.hero-text h1 {
+    margin-bottom: .5rem;
+}
+
+.hero-text h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+@media (max-width: 960px) {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text,
+    .hero-image {
+        text-align: center;
+    }
+}
