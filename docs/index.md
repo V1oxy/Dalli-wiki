@@ -20,7 +20,7 @@ hide:
    href="https://github.com/users/V1oxy/projects/6/views/2"
    target="_blank"
    rel="noopener">
-    Дорожная карта
+    Backlog
 </a>
 
 </div>
