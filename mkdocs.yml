@@ -32,6 +32,8 @@ nav:
   - Главная: index.md
 
   - Технические задания: projects.md
+
+  - Шаблоны документов: https://disk.yandex.ru/d/TtDkEZ-PvsO7Og
   
 extra_css:
   - stylesheets/extra.css
