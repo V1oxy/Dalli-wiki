@@ -17,7 +17,7 @@ hide:
 
 <a class="md-button md-button--primary" href="projects/">Технические задания</a>
 <a class="md-button md-button--outline"
-   href="https://github.com/users/V1oxy/projects/6/views/2"
+   href="https://dalli.yonote.ru/share/3499ad2f-a1ea-4e8f-bbf8-d87b71ec5e0f"
    target="_blank"
    rel="noopener">
     Backlog
